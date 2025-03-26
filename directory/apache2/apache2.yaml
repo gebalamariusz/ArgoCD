@@ -6,5 +6,5 @@ metadata:
   name: apache
 spec:
   containers:
-  - image: ubuntu:apache2
+  - image: ubuntu/apache2
     name: apache2
