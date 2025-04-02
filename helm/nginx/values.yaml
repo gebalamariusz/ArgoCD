@@ -1,0 +1,7 @@
+testVar: Siemka
+environment: prods
+image:
+  name: nginx
+  version: latest
+labels:
+  app: nginx
