@@ -11,7 +11,7 @@ spec:
   source:
     chart: first-chart
     repoURL: "https://gebalamariusz.github.io/ArgoCD/helm-charts"
-    targetRevision: 0.1.0
+    targetRevision: 0.1.2
     helm:
       releaseName: helm-deployment
   syncPolicy:
