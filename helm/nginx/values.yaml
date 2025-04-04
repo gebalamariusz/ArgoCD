@@ -1,10 +1,11 @@
-environment: prod
 name: nginx
 image:
   name: nginx
   version: latest
 labels:
   app: nginx
+  managedBy: mgebala
+  environment: prod
 applicationPort: 80
 
 serviceType: LoadBalancer

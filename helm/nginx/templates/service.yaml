@@ -1,17 +1,15 @@
-{{- if eq .Values.environment "prod" }}
+{{- if eq .Values.labels.environment "prod" }}
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ .Release.Name }}-{{ .Values.name }}-svc
+  name: {{ include "first-chart.fullname" . }}-svc
   annotations:
     {{- if .Values.loadBalancerExternal }}
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
     {{- end }}
 spec:
   selector:
-  {{- range $key, $value := .Values.labels }}
-    {{ $key }}: {{ $value }}
-  {{- end }}
+    matchLabels: {{ include "first-chart.selectorLabels" . | indent 6 }}
   type: {{ .Values.serviceType }}
   ports:
     - protocol: {{ .Values.serviceProtocol }}

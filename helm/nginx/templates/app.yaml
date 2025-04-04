@@ -1,16 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: {{ .Release.Name }}-{{ .Values.name }}
-  labels:
-  {{- range $key, $value := .Values.labels }}
-    {{ $key }}: {{ $value }}
-  {{- end }}
+  name: {{ include "first-chart.fullname" . }}
+  labels: {{ include "first-chart.selectorLabels" . | indent 4 }}
 spec:
   containers:
   - name: {{ .Values.name }}
     image: "{{ .Values.image.name }}:{{ .Values.image.version }}"
-    {{- if eq .Values.environment "prod" }}
+    {{- if eq .Values.labels.environment "prod" }}
     ports:
       - containerPort: {{ .Values.applicationPort }}
     {{ end }}
