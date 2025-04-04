@@ -3,15 +3,23 @@ entries:
   first-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T13:18:13.2712458+02:00"
-    digest: 226dc2ff32766daa0bc95fc16fef849b8b9a89718b72e45dcf20db85ba17b5ad
+    created: "2025-04-04T14:41:10.4867518+02:00"
+    digest: b233c8648b027c1bfc895eb4e2fc862b6cc0413923ee88929538a34d4c8af09a
+    name: first-chart
+    urls:
+    - first-chart-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-04-04T14:41:10.4860305+02:00"
+    digest: 480740c87831be34cc9ee5717d99d5a21a990610fdbd5566df7b299445d9fc28
     name: first-chart
     urls:
     - first-chart-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T13:18:13.2712458+02:00"
+    created: "2025-04-04T14:41:10.4853126+02:00"
     digest: e018369d9c59db71503667a1d0b2adf42696edc7af8bfdc67964d12a787b3ea9
     name: first-chart
     urls:
@@ -19,7 +27,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T13:18:13.2707289+02:00"
+    created: "2025-04-04T14:41:10.4845691+02:00"
     digest: bb7aa2f365231704a1e6dc65fc639f6dcdbb6eb4fc3bd7c95d15506b2aee5abe
     name: first-chart
     urls:
@@ -27,10 +35,10 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T13:18:13.2707289+02:00"
+    created: "2025-04-04T14:41:10.4838541+02:00"
     digest: 9977665dbf50c96e00b0a9e0d821a794cacb6e1064b7a97bcabcdc3b946c8dea
     name: first-chart
     urls:
     - first-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-04T13:18:13.2702099+02:00"
+generated: "2025-04-04T14:41:10.4831186+02:00"
