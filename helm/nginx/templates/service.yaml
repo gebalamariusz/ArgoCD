@@ -1,0 +1,16 @@
+{{- if eq .Values.environment "prod" }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.name }}-svc
+spec:
+  selector:
+  {{- range $key, $value := .Values.labels }}
+    {{ $key }}: {{ $value }}
+  {{- end }}
+  type: {{ .Values.serviceType }}
+  ports:
+    - protocol: {{ .Values.serviceProtocol }}
+      port: {{ .Values.servicePort }}
+      targetPort: {{ .Values.applicationPort }}
+{{ end }}
