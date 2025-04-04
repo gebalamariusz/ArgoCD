@@ -9,4 +9,4 @@ applicationPort: 80
 
 serviceType: LoadBalancer
 serviceProtocol: TCP
-serivcePort: 80
+servicePort: 80
