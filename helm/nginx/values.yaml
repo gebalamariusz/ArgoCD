@@ -10,3 +10,6 @@ applicationPort: 80
 serviceType: LoadBalancer
 serviceProtocol: TCP
 servicePort: 80
+
+loadBalancerType: elb
+loadBalancerInternal: false
