@@ -10,3 +10,7 @@ spec:
   containers:
   - name: {{ .Values.name }}
     image: "{{ .Values.image.name }}:{{ .Values.image.version }}"
+    {{- if eq .Values.environment "prod" }}
+    ports:
+      - containerPort: {{ .Values.applicationPort }}
+    {{ end }}

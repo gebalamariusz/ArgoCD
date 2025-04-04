@@ -1,8 +1,12 @@
-testVar: Siemka
-environment: prods
+environment: prod
 name: nginx
 image:
   name: nginx
   version: latest
 labels:
   app: nginx
+applicationPort: 80
+
+serviceType: LoadBalancer
+serviceProtocol: TCP
+serivcePort: 80
