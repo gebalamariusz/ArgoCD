@@ -5,7 +5,7 @@ metadata:
   name: {{ .Values.name }}-svc
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-type: {{ .Values.loadBalancerType }}
-    {{- if eq .Values.loadBalancerInternal }}
+    {{- if .Values.loadBalancerInternal }}
     service.beta.kubernetes.io/aws-load-balancer-internal: {{ .Values.loadBalancerInternal }}
     {{ end }}
 spec:
