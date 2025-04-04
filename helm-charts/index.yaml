@@ -3,7 +3,15 @@ entries:
   first-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T15:44:26.2355879+02:00"
+    created: "2025-04-04T15:56:20.1414669+02:00"
+    digest: 8e78c140ce62d891123ba36c5206d8965ad0380d739612a4586cacbf4489275c
+    name: first-chart
+    urls:
+    - first-chart-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-04-04T15:56:20.1408046+02:00"
     digest: 5cd9b8b55f91ebdc1d61b6c59751f01781741408cb9f87f1451a319cf3480b66
     name: first-chart
     urls:
@@ -11,7 +19,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T15:44:26.2348418+02:00"
+    created: "2025-04-04T15:56:20.1402443+02:00"
     digest: b233c8648b027c1bfc895eb4e2fc862b6cc0413923ee88929538a34d4c8af09a
     name: first-chart
     urls:
@@ -19,7 +27,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T15:44:26.220358+02:00"
+    created: "2025-04-04T15:56:20.139593+02:00"
     digest: 480740c87831be34cc9ee5717d99d5a21a990610fdbd5566df7b299445d9fc28
     name: first-chart
     urls:
@@ -27,7 +35,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T15:44:26.2060206+02:00"
+    created: "2025-04-04T15:56:20.1389337+02:00"
     digest: e018369d9c59db71503667a1d0b2adf42696edc7af8bfdc67964d12a787b3ea9
     name: first-chart
     urls:
@@ -35,7 +43,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T15:44:26.1916848+02:00"
+    created: "2025-04-04T15:56:20.138278+02:00"
     digest: bb7aa2f365231704a1e6dc65fc639f6dcdbb6eb4fc3bd7c95d15506b2aee5abe
     name: first-chart
     urls:
@@ -43,10 +51,10 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-04-04T15:44:26.1749724+02:00"
+    created: "2025-04-04T15:56:20.1376796+02:00"
     digest: 9977665dbf50c96e00b0a9e0d821a794cacb6e1064b7a97bcabcdc3b946c8dea
     name: first-chart
     urls:
     - first-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-04T15:44:26.1529293+02:00"
+generated: "2025-04-04T15:56:20.1363556+02:00"

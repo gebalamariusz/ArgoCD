@@ -8,8 +8,7 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
     {{- end }}
 spec:
-  selector:
-    matchLabels: {{ include "first-chart.selectorLabels" . | indent 6 }}
+  selector: {{ include "first-chart.selectorLabels" . | indent 4 }}
   type: {{ .Values.serviceType }}
   ports:
     - protocol: {{ .Values.serviceProtocol }}
