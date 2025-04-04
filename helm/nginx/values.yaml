@@ -1,5 +1,6 @@
 testVar: Siemka
 environment: prods
+name: nginx
 image:
   name: nginx
   version: latest
