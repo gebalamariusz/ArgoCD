@@ -4,7 +4,7 @@ global:
     domain: gitlab.haitmg.pl
   registry:
     bucket: mgebala-eks-s3-bucket
-    enabled: false
+    enabled: true
 
 gitlab-runner:
   install: false
