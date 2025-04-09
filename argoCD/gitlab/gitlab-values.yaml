@@ -1,6 +1,8 @@
 global:
   hosts:
     domain: gitlab.haitmg.pl
+  registry:
+    bucket: mgebala-eks-s3-bucket
 
 certmanager-issuer:
   email: gebalamariusz@gmail.com
