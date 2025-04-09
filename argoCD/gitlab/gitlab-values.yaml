@@ -6,6 +6,9 @@ global:
     bucket: mgebala-eks-s3-bucket
     enabled: false
 
+gitlab-runner:
+  install: false
+
 certmanager-issuer:
   email: gebalamariusz@gmail.com
 
