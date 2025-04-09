@@ -2,8 +2,5 @@ global:
   hosts:
     domain: gitlab.haitmg.pl
 
-certmanager-issuer:
-  email: gebalamariusz@gmail.com
-
 upgradeCheck:
   enabled: false

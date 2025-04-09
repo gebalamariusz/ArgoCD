@@ -13,7 +13,7 @@ spec:
       - CreateNamespace=true
   sources:
   - repoURL: "https://github.com/gebalamariusz/ArgoCD.git"
-    targetRevision: HEAD
+    targetRevision: main
     ref: values
   - chart: gitlab
     repoURL: "https://charts.gitlab.io/"
