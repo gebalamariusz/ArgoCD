@@ -5,7 +5,7 @@ global:
   registry:
     bucket: mgebala-eks-s3-bucket
     enabled: true
-  ingress:
+  service:
     annotations:
       service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
 
