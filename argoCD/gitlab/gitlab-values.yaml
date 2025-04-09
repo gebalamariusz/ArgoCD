@@ -4,3 +4,6 @@ global:
 
 certmanager-issuer:
   email: gebalamariusz@gmail.com
+
+upgradeCheck:
+  enabled: false

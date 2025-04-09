@@ -8,7 +8,10 @@ spec:
     namespace: gitlab
     server: https://kubernetes.default.svc
   project: default
-  source:
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+  sources:
   - repoURL: "https://github.com/gebalamariusz/ArgoCD.git"
     targetRevision: HEAD
     ref: values
@@ -19,6 +22,3 @@ spec:
       releaseName: gitlab
       valueFiles:
         - $values/argoCD/gitlab/gitlab-values.yaml
-  syncPolicy:
-    syncOptions:
-      - CreateNamespace=true
