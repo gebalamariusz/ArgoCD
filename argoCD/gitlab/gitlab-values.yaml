@@ -3,6 +3,7 @@ global:
   hosts:
     domain: gitlab.haitmg.pl
   registry:
+    region: eu-central-1
     bucket: mgebala-eks-s3-bucket
     enabled: true
 
