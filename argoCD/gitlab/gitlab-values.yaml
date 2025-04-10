@@ -10,6 +10,7 @@ nginx-ingress:
     service:
       annotations:
         service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
+        service.beta.kubernetes.io/aws-load-balancer-security-groups: sg-0f616942f2619f017
 
 gitlab-runner:
   install: true
