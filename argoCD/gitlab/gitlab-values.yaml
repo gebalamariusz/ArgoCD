@@ -4,6 +4,9 @@ global:
     domain: haitmg.pl
   registry:
     bucket: mgebala-eks-s3-bucket
+    storage:
+      s3:
+        region: eu-central-1
     enabled: true
 
 nginx-ingress:
