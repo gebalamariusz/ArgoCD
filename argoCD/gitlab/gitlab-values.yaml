@@ -5,12 +5,6 @@ global:
   registry:
     enabled: true
 
-s3:
-  bucket: mgebala-eks-s3-bucket-virginia
-  accesskey: AWS_ACCESS_KEY
-  secretkey: AWS_SECRET_KEY
-  region: eu-central-1
-
 nginx-ingress:
   controller:
     service:
