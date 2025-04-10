@@ -3,10 +3,7 @@ global:
   hosts:
     domain: haitmg.pl
   registry:
-    bucket: mgebala-eks-s3-bucket
-    storage:
-      s3:
-        region: eu-central-1
+    bucket: mgebala-eks-s3-bucket-virginia
     enabled: true
 
 nginx-ingress:
