@@ -13,7 +13,7 @@ nginx-ingress:
         service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
 
 gitlab-runner:
-  install: false
+  install: true
 
 certmanager-issuer:
   email: gebalamariusz@gmail.com
